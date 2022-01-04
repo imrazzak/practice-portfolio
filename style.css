@@ -20,6 +20,45 @@ body {
     padding: 5% 5% 0;
 }
 
+.header {
+    background: #70daf5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 12px;
+    height: 90px;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 38px;
+    text-decoration: none;
+    color: #333;
+    font-family: 'Meie Script', sans-serif;
+}
+
+.nav {
+    list-style: none;
+}
+
+.nav li {
+    display: inline-block;
+    margin: 5px;
+}
+
+.list-item {
+    text-decoration: none;
+    color: #333;
+    background: #cefdff;
+    padding: 8px 20px;
+    border-radius: 6px;
+    transition: all .4s;
+}
+
+.list-item:hover {
+    background: #00d8d6;
+}
+
 .hero-main {
     background-image: url('images/bg-top.png'), linear-gradient(to left, #cefdff, #8be2f8);
     background-position: bottom right;

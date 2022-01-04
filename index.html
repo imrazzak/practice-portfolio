@@ -8,25 +8,37 @@
     <title>Abdur Razzak Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Meie+Script&family=Poppins&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <section class="flex-container container hero-main">
-        <div class="flex-half">
-            <span class="hello-span">Hello</span>
-            <h1 class="name-top">I'm <span class="bold-color">Abdur</span> Razzak</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit id impedit provident minus optio deserunt
-                nihil error iusto soluta nam sit maxime possimus quod qui sint iure, tempore, vitae necessitatibus ab
-                facilis at assumenda quasi ad veritatis? Earum, fugit corporis.
-            </p>
-            <a href="https://linkdin.com/imrazzak" class="link-btn" target="_blank">Hire Me</a>
-        </div>
-        <div class="flex-half">
-            <img src="images/razzak.png" alt="Abdur Razzak" class="hero-image">
+    <section class="container hero-main">
+        <header class="header">
+            <a href="/" class="logo"><span class="bold-color">.</span>razzak</a>
+            <ul class="nav">
+                <li><a href="#about" class="list-item">About</a></li>
+                <li><a href="#do" class="list-item">What I do</a></li>
+                <li><a href="#ws" class="list-item">Experience</a></li>
+            </ul>
+        </header>
+        <div class="flex-container">
+            <div class="flex-half" id="about">
+                <span class="hello-span">Hello</span>
+                <h1 class="name-top">I'm <span class="bold-color">Abdur</span> Razzak</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit id impedit provident minus optio
+                    deserunt
+                    nihil error iusto soluta nam sit maxime possimus quod qui sint iure, tempore, vitae necessitatibus
+                    ab
+                    facilis at assumenda quasi ad veritatis? Earum, fugit corporis.
+                </p>
+                <a href="https://linkdin.com/imrazzak" class="link-btn" target="_blank">Hire Me</a>
+            </div>
+            <div class="flex-half">
+                <img src="images/razzak.png" alt="Abdur Razzak" class="hero-image">
+            </div>
         </div>
     </section>
     <section class="flex-container newsletter">
@@ -37,7 +49,7 @@
             <input type="text" placeholder="Enter your email">
         </div>
     </section>
-    <section class="container do-list">
+    <section id="do" class="container do-list">
         <span class="hello-span">My Skills</span>
         <h2><span class="bold-color"> What actually</span> <br> I love to do</h2>
         <div class="flex-container">
@@ -76,7 +88,7 @@
             </div>
         </div>
     </section>
-    <section class="container work-space">
+    <section id="ws" class="container work-space">
         <span class="hello-span">Work Space </span>
         <h2>My Experience </h2>
         <div class="flex-container">
