@@ -76,27 +76,31 @@ img.hero-image {
 }
 
 .newsletter {
-    background: #05c5ff;
+    background: #a1ebfa;
     padding: 10px 80px;
-    color: #fff;
+    color: #111;
     margin-top: -7px;
     z-index: 9999;
 }
 
 .newsletter input {
-    border: 1px solid #cefdff7e;
+    border: 1px solid #1d1f1e2c;
     outline: none;
     padding: 18px 10px;
     width: 60%;
     background: transparent;
     border-radius: 6px;
+    float: left;
 }
 
 input::placeholder {
-    color: #fff;
+    color: rgba(51, 51, 51, 0.644);
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
-.do-list h2 {
+.do-list h2,
+.work-space h2 {
     font-weight: 600;
     font-size: 32px;
 }
@@ -108,8 +112,41 @@ input::placeholder {
 }
 
 .active {
-    background: #cefdff;
+    background: #97efff54;
     box-shadow: -1px 9px 30px -9px rgba(0, 0, 0, 0.59);
     -webkit-box-shadow: -1px 9px 26px -9px rgba(0, 0, 0, 0.59);
     -moz-box-shadow: -1px 9px 26px -9px rgba(0, 0, 0, 0.59);
+}
+
+.work-space {
+    background-image: url(images/bg-bottom.png);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.box-work-space {
+    box-shadow: 10px 10px 30px #3333;
+    padding: 20px;
+    margin: 0 20px;
+}
+
+#bws-baby {
+    border-left: 7px solid;
+    border-image: linear-gradient(to bottom, lightblue, #5ce1e6) 1;
+}
+
+#bws-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(to bottom, #5ce1e6, #5ce1e6) 1;
+}
+
+.mt-150 {
+    margin-top: 150px;
+}
+
+footer p {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
 }
